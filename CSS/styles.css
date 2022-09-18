@@ -1,0 +1,96 @@
+
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.left{
+  
+    display: inline-block;
+    width: 14%;
+    position: absolute;
+    top: 5%;
+}
+.logo{
+    width: 37%;
+    align-items: center;
+    padding-left: 55px;
+}
+.left p{
+    padding-left: 34px;
+}
+.middle{
+    
+    position: absolute;
+    left: 38%;
+    top: 5%;
+    background-color: #2a2020;
+    border: 2px solid #2a2020 ;
+    border-radius: 18px;
+}
+.middle ul{
+    width: 379px;
+    padding-right: 32px;
+}
+.middle ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    font-size:18px;
+}
+.middle ul li a{
+    color: white;
+    text-decoration: none;
+}
+.middle a:hover, a.active{
+    color: gray;
+}
+.right{
+   
+    position: absolute;
+    left: 86%;
+    top: 5%;
+}
+.btn{
+    cursor: pointer;
+    background-color: black;
+    color: blanchedalmond;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+button:hover{
+    color: gray;
+}
+
+.container{
+    position: absolute;
+    top: 48%;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: white;
+    left: 9%;
+    padding: 0px 13px 19px 13px;
+    width: 300px;
+    height: 260px;
+}
+.form-group{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 20px;
+    color: white;
+}
+.submit{
+    font-family: 'Baloo Bhai 2', cursive;
+    cursor: pointer;
+    background-color: black;
+    color: blanchedalmond;
+    display: inline-block;
+    position: absolute;
+    left: 223px;
+    top: 85%;
+
+    
+}
+.submit:hover{
+    color: gray;
+}
+.container h1 {
+    text-align: center;
+}
